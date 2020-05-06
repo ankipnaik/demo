@@ -1,14 +1,113 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "@odata.context": "https://devapi.ccr.net/production/$metadata#Portal_PortfolioOptions_view",
+    "value": [
+        {
+            "ID": "11776.5",
+            "Medium_Type_SubType_XrefID": 5,
+            "Portfolio_Medium_Type_SubType_XrefID": 5,
+            "MediumTypeID": 1,
+            "Company_RecID": 11776,
+            "VendorProductPortfolio_RecID": 3103,
+            "Medium_Type": "Broadband",
+            "MediumSubTypeID": 1,
+            "Medium_Subtype": "DSL",
+            "Portfolio_IsActive": true
+        },
+        {
+            "ID": "11776.6",
+            "Medium_Type_SubType_XrefID": 6,
+            "Portfolio_Medium_Type_SubType_XrefID": 6,
+            "MediumTypeID": 1,
+            "Company_RecID": 11776,
+            "VendorProductPortfolio_RecID": 3104,
+            "Medium_Type": "Broadband",
+            "MediumSubTypeID": 2,
+            "Medium_Subtype": "Coax",
+            "Portfolio_IsActive": false
+        },
+        {
+            "ID": "11776.7",
+            "Medium_Type_SubType_XrefID": 7,
+            "Portfolio_Medium_Type_SubType_XrefID": 7,
+            "MediumTypeID": 1,
+            "Company_RecID": 11776,
+            "VendorProductPortfolio_RecID": 2054,
+            "Medium_Type": "Broadband",
+            "MediumSubTypeID": 3,
+            "Medium_Subtype": "Fixed Wireless",
+            "Portfolio_IsActive": false
+        },
+        {
+            "ID": "11776.8",
+            "Medium_Type_SubType_XrefID": 8,
+            "Portfolio_Medium_Type_SubType_XrefID": 8,
+            "MediumTypeID": 1,
+            "Company_RecID": 11776,
+            "VendorProductPortfolio_RecID": 3101,
+            "Medium_Type": "Broadband",
+            "MediumSubTypeID": 4,
+            "Medium_Subtype": "Fiber",
+            "Portfolio_IsActive": true
+        },
+        {
+            "ID": "11776.10",
+            "Medium_Type_SubType_XrefID": 10,
+            "Portfolio_Medium_Type_SubType_XrefID": 10,
+            "MediumTypeID": 4,
+            "Company_RecID": 11776,
+            "VendorProductPortfolio_RecID": 2052,
+            "Medium_Type": "DIA",
+            "MediumSubTypeID": 3,
+            "Medium_Subtype": "Fixed Wireless",
+            "Portfolio_IsActive": true
+        },
+        {
+            "ID": "11776.11",
+            "Medium_Type_SubType_XrefID": 11,
+            "Portfolio_Medium_Type_SubType_XrefID": 11,
+            "MediumTypeID": 4,
+            "Company_RecID": 11776,
+            "VendorProductPortfolio_RecID": 3105,
+            "Medium_Type": "DIA",
+            "MediumSubTypeID": 4,
+            "Medium_Subtype": "Fiber",
+            "Portfolio_IsActive": false
+        },
+        {
+            "ID": "11776.15",
+            "Medium_Type_SubType_XrefID": 15,
+            "Portfolio_Medium_Type_SubType_XrefID": 15,
+            "MediumTypeID": 10,
+            "Company_RecID": 11776,
+            "VendorProductPortfolio_RecID": 2053,
+            "Medium_Type": "Transport",
+            "MediumSubTypeID": 3,
+            "Medium_Subtype": "Fixed Wireless",
+            "Portfolio_IsActive": true
+        },
+        {
+            "ID": "11776.16",
+            "Medium_Type_SubType_XrefID": 16,
+            "Portfolio_Medium_Type_SubType_XrefID": 16,
+            "MediumTypeID": 10,
+            "Company_RecID": 11776,
+            "VendorProductPortfolio_RecID": 3106,
+            "Medium_Type": "Transport",
+            "MediumSubTypeID": 4,
+            "Medium_Subtype": "Fiber",
+            "Portfolio_IsActive": false
+        },
+        {
+            "ID": "11776.45",
+            "Medium_Type_SubType_XrefID": 45,
+            "Portfolio_Medium_Type_SubType_XrefID": 45,
+            "MediumTypeID": 1,
+            "Company_RecID": 11776,
+            "VendorProductPortfolio_RecID": 3102,
+            "Medium_Type": "Broadband",
+            "MediumSubTypeID": 6,
+            "Medium_Subtype": "Satellite",
+            "Portfolio_IsActive": false
+        }
+    ]
 }
